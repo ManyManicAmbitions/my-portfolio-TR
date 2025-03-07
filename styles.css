@@ -34,6 +34,16 @@ nav ul li a:hover {
     text-decoration: underline !important;
 }
 
+details {
+    padding: 20px;
+    margin: 25px;
+    display: none;
+}
+
+details.show {
+    display: block;
+}
+
 section {
     padding: 20px;
     margin: 25px;
