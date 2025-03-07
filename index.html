@@ -32,7 +32,7 @@
         <div class="project">
         <h3>Porfolio project placeholder A</h3>
             <p>Future project placeholder.</p>
-            <button="snow-details">Show details</button>
+            <button class="snow-details">Show details</button>
         <div class="details">
             <p>Portfolio project information placeholder</p>
         </div>
@@ -50,7 +50,26 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Future contact info placeholder.</p>
+        <form id="contactForm">
+                <fieldset>
+                    <h3>Fill out all fields with the appropriate information </h3>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" name="phone" name="phone" required>
+                    <br><br>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                    <br><br>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+        </form>
+        <p id="error-message" style="color: #fa0505;">Future contact info placeholder.</p>
     </section>
 
     <!-- Footer Section -->
