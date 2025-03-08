@@ -1,7 +1,7 @@
 const showDetailsButton = document.querySelectorAll(".toggle-button");
 
 showDetailsButton.forEach(button => {
-    button.addEventListener("click", function() {
+    button.addEventListener("click", () => {
         const details = button.nextElementSibling;
             details.classList.toggle("show");
                 if (details.classList.contains("show")) {
