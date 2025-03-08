@@ -38,10 +38,12 @@ details {
     padding: 20px;
     margin: 25px;
     display: none;
+    background-color: #0f13df;
 }
 
 details.show {
     display: block;
+    opacity: 1;
 }
 
 section {
@@ -54,6 +56,10 @@ section {
 }
 
 h2 {
+    color: #4e4e4e;
+}
+
+h3 {
     color: #4e4e4e;
 }
 
