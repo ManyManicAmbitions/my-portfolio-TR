@@ -2,7 +2,8 @@ const showDetailsButton = document.querySelectorAll(".toggle-button");
 
 showDetailsButton.forEach(button => {
     button.addEventListener("click", () => {
-        const details = button.nextElementSibling;
+        const project = button.closest(".project")
+        const details = project.querySelectorAll(".details")
             details.classList.toggle("show");
                 if (details.classList.contains("show")) {
                     button.textContent = "Hide details";
