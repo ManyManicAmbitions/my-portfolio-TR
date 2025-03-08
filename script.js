@@ -1,6 +1,6 @@
 const showDetailsButton = document.querySelectorAll(".toggle-button");
 
-buttons.forEach(button => {
+showDetailsButton.forEach(button => {
     button.addEventListener("click", function() {
         const details = button.nextElementSibling;
             details.classList.toggle("show");
