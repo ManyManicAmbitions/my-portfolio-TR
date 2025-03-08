@@ -1,4 +1,4 @@
-const showDetailsButton = document.querySelectorAll("show-details");
+const showDetailsButton = document.querySelectorAll(".toggle-button");
 
 buttons.forEach(button => {
     button.addEventListener("click", function() {
