@@ -72,7 +72,11 @@ details {
     background-color: #0f13df;
 }
 
-details.show {
+.details {
+    display: none;
+}
+
+.details.show {
     display: block;
     opacity: 1;
 }
