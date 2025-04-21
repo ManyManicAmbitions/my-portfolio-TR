@@ -42,3 +42,8 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 function validateEmail(email) {
  return email.indexOf("@") > -1 && email.indexOf(".") > -1;  
 } 
+
+function darkMode() {
+    var dark = document.body;
+    dark.classList.toggle("dark-mode");
+}
