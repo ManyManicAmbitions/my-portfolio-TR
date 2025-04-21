@@ -2,8 +2,8 @@ const showDetailsButton = document.querySelectorAll(".toggle-button");
 
 showDetailsButton.forEach(button => {
     button.addEventListener("click", () => {
-        const project = button.closest(".project")
-        const details = project.querySelectorAll(".details")
+        const project = button.closest(".project");
+        const details = project.querySelector(".details");
             details.classList.toggle("show");
                 if (details.classList.contains("show")) {
                     button.textContent = "Hide details";
@@ -11,7 +11,7 @@ showDetailsButton.forEach(button => {
                 button.textContent = "Show details";
             }
     });
-} );
+});
 
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     let errorMessage = "";
