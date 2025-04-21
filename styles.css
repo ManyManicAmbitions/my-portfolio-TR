@@ -3,7 +3,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    padding-bottom: 30px;
+    padding-bottom: 75px;
     line-height: 1.6;
 }
 
@@ -23,6 +23,19 @@ header {
     background-color: #383535;
     color: whitesmoke;
 }
+
+.image-container-1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.image-container-1 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
