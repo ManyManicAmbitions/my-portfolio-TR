@@ -3,16 +3,26 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+    padding-bottom: 30px;
     line-height: 1.6;
+}
+
+.dark-mode {
+    background-color: #000000;
+    color: whitesmoke;
 }
 
 header {
     background-color: #0f13df;
-    color: white;
+    color: whitesmoke;
     padding: 20px;
     text-align: center;
 }
 
+.dark-mode header {
+    background-color: #383535;
+    color: whitesmoke;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -29,9 +39,17 @@ nav ul li a {
     font-weight: bold;
 }
 
+.dark-mode nav ul li a {
+    color: whitesmoke;
+}
+
 
 nav ul li a:hover {
     text-decoration: underline !important;
+}
+
+.dark-mode nav ul li a:hover {
+    color: whitesmoke;
 }
 
 details {
@@ -46,6 +64,10 @@ details.show {
     opacity: 1;
 }
 
+.dark-mode details {
+    background-color: #383535;
+}
+
 section {
     padding: 20px;
     margin: 25px;
@@ -55,14 +77,26 @@ section {
     color: black;
 }
 
+.dark-mode section {
+    background-color: #383535;
+    color: whitesmoke;
+}
+
 h2 {
     color: #4e4e4e;
+}
+
+.dark-mode h2 {
+    color: whitesmoke;
 }
 
 h3 {
     color: #4e4e4e;
 }
 
+.dark-mode h3 {
+    color: whitesmoke;
+}
 footer {
     background-color: #0f13df;
     color: white;
@@ -71,6 +105,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.dark-mode footer {
+    background-color: #383535;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
